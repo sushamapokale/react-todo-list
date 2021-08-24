@@ -1,0 +1,75 @@
+body{
+  background-color:rgb(226, 226, 245);
+
+}
+.center-div{
+  width:30%;
+  background-color: white;
+  
+  border-radius: 20px;
+}
+.main-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width:100%;
+  
+}
+h1{
+  background: transparent;
+  color:white;
+  text-align: center;
+  background-color: rgb(124, 92, 153);
+  padding:5px;;
+}
+#item{
+  margin: 5px;
+  padding: 2px;
+  margin-left: 30x;
+  font-size: 20px;
+  width: 60%;
+  border: none;
+  border-bottom: rgb(45, 32, 116) solid;
+}
+#add {
+  margin: 5px;
+  color:white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  background-color: rgb(124, 92, 153);
+  border-radius: 100px;
+}
+#removeall {
+  margin: 5px;
+  color:white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  background-color: rgb(124, 92, 153);
+  border-radius: 100px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+#add:hover{
+  background-color: green;
+   font-weight: bold;
+}
+#removeall:hover{
+  background-color:red;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .center-div{
+    width: 70vw;
+  }
+}
+  
